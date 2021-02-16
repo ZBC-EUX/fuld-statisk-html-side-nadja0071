@@ -2,11 +2,13 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
-    background-color: #f3f3f3;
+    background-color: #3b5e78;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /*Container div til at centerjustere siden*/
 #container{
     width: 1080px;
@@ -15,33 +17,40 @@ body{
     background-color: #fff;
     
 }
+
 /*styling af topmenu bar og logo*/
 #topmenu{
     padding: 15px 0;
     height: 50px;
 }
+
 #nav{
     margin: 0 20px;
 }
+
 #topmenu .menulist{
     list-style-type: none;
     display: inline;
 }
+
 #topmenu .menulist > a{
     padding: 10px;
     margin-left: 10px;
     text-decoration: none;
     color: #2b2a2a;
 }
+
 #topmenu .menulist > a:hover{
-    background-color: #2b2b2b;
+    background-color: #e99c9c;
     border-radius: 3px;
     color: #fff;
 }
+
 #logo{
     width: 50px;
     margin-left: 20px;
 }
+
 /*Header*/
 #header{
     background-color: aliceblue;
@@ -66,7 +75,7 @@ body{
 
 #footer{
     min-height: 50px;
-    background-color: #000;
+    background-color: #9ba69a;
     color: #f2f2f2;
     padding: 10px 0;
 }
@@ -76,27 +85,27 @@ body{
     
 }
 
-
 /*styler knapper*/
 .btn{ 
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 20px;
 }
+
 .btn .green{
     background-color: #5cb85c;
     color: #fff;
 }
 
 /*Hjælpe class til at floate elementer*/
-
 .pull-left{
     float: left;
 }
+
 .pull-right{
     float: right;
 }
+
 .clear{
     clear: both;
 }
-

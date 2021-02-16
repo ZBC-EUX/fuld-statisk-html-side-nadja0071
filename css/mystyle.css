@@ -1,0 +1,143 @@
+/* Body baggrundsbillede */
+body{
+    background-color: #d9b9adc9;
+    background-image: url("https://images.pexels.com/photos/3974275/pexels-photo-3974275.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+
+/* Header billeder */
+
+/* Forside header baggrundsbillede */
+#forside #header {
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.pexels.com/photos/9186/food-beans-coffee-drink.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+/* Om Os header baggrundsbillede */
+#om-os #header {
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.pexels.com/photos/1556665/pexels-photo-1556665.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+/* Kontakt header baggrundsbillede */
+#kontakt #header {
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("https://images.pexels.com/photos/618613/pexels-photo-618613.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+/* Blog header baggrundsbillede */
+#blog #header {
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.pexels.com/photos/544117/pexels-photo-544117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+
+/* Header overskrift */
+
+#header h1 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px #000;
+}
+
+/* logo-billede */
+#logo img {
+    width: 55px;
+    margin-top: -17px;
+    margin-left: -10px;
+}
+
+/* menu-links */
+#topmenu .menulist >a{
+    color: #2b2a2a;
+}
+
+#topmenu .menulist >a:hover{
+    background-color: #3b5e78;
+}
+
+/* Footer */
+#footer{
+    background-color: #3b5e78;
+    color: #f2f2f2;
+}
+
+/* overskrifter */
+h2, h3, h4, h5, h6 {
+    color: #3b5e78;
+}
+
+#forside h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+#forside h3 {
+    margin-top: 45px;
+}
+
+#forside p {
+    margin-bottom: 45px;
+    margin-right: 40px;
+}
+
+#om-os h3 {
+    margin-top: 45px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#blog #container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+#blog #main {
+    clear:left;
+    padding: 20px 300px 30px;
+    padding-right: 11px;
+}
+
+#blog #footer{
+    width: 1080px;
+    min-height: 50px;
+    background-color: #3b5e78;
+    color: #f2f2f2;
+    padding: 10px 0;
+    margin-left: -300px;
+    margin-bottom: -30px;
+}
+
+/* Forms-border */
+input {
+    border-width: 0.1px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    color: gray;
+    padding-left: 7px;
+}
+
+input[type=submit] {
+    background-color: #3b5e78be;
+}
+
+#forside h4 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: #a9784b;
+}
