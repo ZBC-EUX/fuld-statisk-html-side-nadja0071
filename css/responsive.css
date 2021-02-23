@@ -1,0 +1,32 @@
+@media screen and (max-width: 750px)
+{
+    #content {
+        width: 100%
+    }
+
+    #sidebar {
+        width: 100%
+    }
+
+    #header {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 750px)
+{
+    #container {
+        width: 100%
+    }
+
+    #nav {
+        float: initial;
+        clear: both;
+    }
+
+    #nav li {
+        display:initial;
+    }
+}
