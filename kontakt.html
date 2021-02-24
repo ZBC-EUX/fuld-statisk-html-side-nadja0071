@@ -12,16 +12,20 @@
 </head>
 
 <body id="kontakt">
+
     <!--Container div som omslutter alt indhold. Bruges især til at centrere siden-->
     <div id="container">
+
         <!--Menubar i toppen-->
         <div id="topmenu">
+
             <!--logo-->
             <div id="logo" class="pull-left">
                 <a href="/">
                     <img src="images/coffee-logo.png" alt="">
                 </a>
             </div>
+            
             <!--menuknapper-->
             <ul id="nav" class="pull-right">
                 <li class="menulist"><a href="index.html">Forside</a></li>
@@ -30,20 +34,51 @@
                 <li class="menulist"><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
+
         <!--Min Header-->
         <div id="header">
             <h1>Vi glæder os til at høre fra dig</h1>
         </div>
+
         <!--Main div som indeholder content og sidebar divs-->
         <div id="main">
+
             <!--Content div-->
             <div id="content" class="pull-left">
-                <h2>KONTAKT OS</h2>
-                <p>Kontakt os endelig, hvis du har spørgsmål eller ønsker at forhøre dig om mulighederne for abonnement
+                <h2 style="margin-left: 70px">KONTAKT OS</h2>
+                <p style="margin-left: 70px; margin-right: 10px">Kontakt os endelig, hvis du har spørgsmål eller ønsker at forhøre dig om mulighederne for abonnement
                     og vores formål.</p>
                 <p></p>
                 <p></p>
+
+
+            <!--Formular-->
+                <h3 id="form1">Send os en besked</h3>
+
+                <form id="form2" action="#" method="post"></form>
+                    <form id="form2" action="#" method="post">
+                        <label for="fname">Navn:</label><br>
+                        <textarea style="width:300px;height:20px"></textarea>
+                        <br>
+                        <br />
+                        <label for="fname">Email:</label><br>
+                        <textarea style="width:300px;height:20px"></textarea>
+                        <br>
+                        <br />
+                        <label for="fname">Emne:</label><br>
+                        <textarea style="width:300px;height:20px"></textarea>
+                        <br>
+                        <br />
+                        <label for="fname">Besked:</label><br>
+                        <textarea style="width:300px;height:100px"></textarea>
+                        <br>
+                        <br />
+                        <input type="submit" value="SEND BESKED"/>
+                    </form>
+
             </div>
+
+
             <!--Sidebar-->
             <div id="sidebar" class="pull-right">
                 <h3>KONTAKT INFORMATION</h3>
@@ -84,11 +119,13 @@
                 </p>
             </div>
         </div>
+
         <!--Footer div-->
         <div id="footer" class="clear">
             <p id="copyright-text">&copy; Nuriye Ahmadi - 2021 - All rights reserved</p>
         </div>
     </div>
+
 </body>
 
 </html>

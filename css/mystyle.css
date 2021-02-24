@@ -141,3 +141,23 @@ input[type=submit] {
     font-family: cursive;
     color: #a9784b;
 }
+
+
+
+/* Kontakt - Formular */
+#form1 {
+    width: 500px;
+    background-color:#fff;
+    float: left;
+    border-radius: 0;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+#form2 {
+    width: 500px;
+    background-color:#fff;
+    float: left;
+    border-radius: 0;
+    margin-left: 70px;
+}
